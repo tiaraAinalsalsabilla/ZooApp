@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.tiara.startup.AnimalInfo">
+
+    <ImageView
+        android:id="@+id/ivAnimaImage"
+        android:layout_width="162dp"
+        android:layout_height="160dp"
+        android:src="@drawable/baboon"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:text="Babbon"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:text="babbon an animal that live in zoo with different class with an other  animals" />
+</LinearLayout>
